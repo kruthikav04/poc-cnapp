@@ -2,12 +2,12 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "airowire.azurecr.io/notes-app"
-        RESOURCE_GROUP = "Airowire-RG"
-        AKS_CLUSTER = "Airowire-aks"
-        ACR_NAME = "airowire"
+        IMAGE_NAME = "kruthi.azurecr.io/notes-app"
+        RESOURCE_GROUP = "RVCE-RG"
+        AKS_CLUSTER = "AKS-Kruthi"
+        ACR_NAME = "kruthi"
         TENANT_ID = "981439d1-88ac-4c7c-bd5d-d5df66bc0f4c"
-        SUBSCRIPTION_ID = "Kruthika's-Subscription"
+        SUBSCRIPTION_ID = "SAQLAIN-SUBSCRIPTION"
     }
 
     stages {
